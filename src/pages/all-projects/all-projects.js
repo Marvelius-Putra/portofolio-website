@@ -34,7 +34,7 @@ export async function loadNavbar() {
 
 async function loadFooter() {
   try {
-    const response = await fetch("../../../components/footer/footer.html");
+    const response = await fetch("../../components/footer/footer.html");
     if (!response.ok) throw new Error("Failed to load Footer");
     const html = await response.text();
     document.querySelector("#contact").innerHTML = html;
@@ -56,7 +56,7 @@ let itemsPerPage = 6;
 // ---- Load Data ----
 async function loadProjects() {
   try {
-    const response = await fetch("../../../data/projects.json");
+    const response = await fetch("../../data/projects.json");
     if (!response.ok) throw new Error("Failed to load projects data");
     return await response.json();
   } catch (error) {
