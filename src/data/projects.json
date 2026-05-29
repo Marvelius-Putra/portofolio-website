@@ -10,7 +10,7 @@
     "techStack": ["Next.js", "Golang", "Python", "REST API", "Postman", "SQL Server"],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/microservice.png"
+    "image": "../../public/images/projects/microservice.png"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "techStack": [".NET", "Azure DevOps", "CI/CD"],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/saviynt-architecture.png"
+    "image": "../../public/images/projects/saviynt-architecture.png"
   },
   {
     "id": 4,
@@ -36,7 +36,7 @@
     "techStack": [".NET", "SQL Server", "Azure DevOps", "CI/CD"],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/ptfi-work-permit.png"
+    "image": "../../public/images/projects/ptfi-work-permit.png"
   },
   {
     "id": 1,
@@ -49,7 +49,7 @@
     "techStack": [".NET", "Azure DevOps", "CI/CD"],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/third-party-removal.png"
+    "image": "../../public/images/projects/third-party-removal.png"
   },
   {
     "id": 3,
@@ -62,7 +62,7 @@
     "techStack": [".NET", "Azure DevOps", "CI/CD", "HTML", "SQL Server"],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/fmHome.png"
+    "image": "../../public/images/projects/fmHome.png"
   },
 
   {
@@ -76,7 +76,7 @@
     "techStack": [".NET", "Azure DevOps", "CI/CD", "SQL Server"],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/uplift-net8.png"
+    "image": "../../public/images/projects/uplift-net8.png"
   },
   {
     "id": 6,
@@ -89,7 +89,7 @@
     "techStack": [".NET", "Azure DevOps", "CI/CD", "Veracode", "SQL Server"],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/veracode-remediation.png"
+    "image": "../../public/images/projects/veracode-remediation.png"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
     "techStack": ["Python", "Google Colab", "Gradio", "PyTorch"],
     "documentation": "https://ieeexplore.ieee.org/document/10636929",
     "github": "#",
-    "image": "/public/images/projects/self-attention1.png"
+    "image": "../../public/images/projects/self-attention1.png"
   },
   {
     "id": 8,
@@ -116,7 +116,7 @@
     "documentation": "https://drive.google.com/drive/u/1/folders/10-8ZFnaNDqomcI5xyZzZMsVh6iAkeLMq?usp=sharing",
     "github": "#",
     "demo": "https://drive.google.com/file/d/1L_MV4-MriPmxs5ueUlr7nrTVlEHeQQ7N/view?usp=sharing",
-    "image": "/public/images/projects/vehicle-detection.png"
+    "image": "../../public/images/projects/vehicle-detection.png"
   },
   {
     "id": 9,
@@ -129,7 +129,7 @@
     "techStack": ["Python", "YOLOv8", "OpenCV", "PyTorch"],
     "documentation": "https://ieeexplore.ieee.org/abstract/document/10335240",
     "github": "https://github.com/SmartShopLearny/YOLOv8-Object-Recognition-as-Inter-Class-Similarities",
-    "image": "/public/images/projects/brand-recognition.png"
+    "image": "../../public/images/projects/brand-recognition.png"
   },
   {
     "id": 10,
@@ -142,7 +142,7 @@
     "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy"],
     "documentation": "https://ieeexplore.ieee.org/abstract/document/10455892",
     "github": "#",
-    "image": "/public/images/projects/brain-stroke-detection.png"
+    "image": "../../public/images/projects/brain-stroke-detection.png"
   },
   {
     "id": 11,
@@ -155,7 +155,7 @@
     "techStack": ["Python", "TensorFlow", "OpenCV", "Roboflow"],
     "documentation": "https://drive.google.com/file/d/1qom5iQeBNmMvTNyQP7rdca_CFuT73Dig/view",
     "github": "#",
-    "image": "/public/images/projects/self-checkout-market.png"
+    "image": "../../public/images/projects/self-checkout-market.png"
   },
   {
     "id": 20,
@@ -168,7 +168,7 @@
     "techStack": ["Figma", "HTML", "CSS", "JavaScript", "PHP", "Laravel"],
     "documentation": "#",
     "github": "https://github.com/Marvelius-Putra/ComdevDesa",
-    "image": "/public/images/projects/kenteng-desa.png"
+    "image": "../../public/images/projects/kenteng-desa.png"
   },
   {
     "id": 21,
@@ -181,7 +181,7 @@
     "techStack": ["HTML", "CSS", "JavaScript", "PHP", "Laravel"],
     "documentation": "#",
     "github": "https://github.com/Marvelius-Putra/MidBNCC-DemoOnlineCourse",
-    "image": "/public/images/projects/online-course.png"
+    "image": "../../public/images/projects/online-course.png"
   },
   {
     "id": 22,
@@ -194,7 +194,7 @@
     "techStack": ["HTML", "CSS", "JavaScript", "PHP", "Laravel"],
     "documentation": "#",
     "github": "https://github.com/Marvelius-Putra/FinalBackendBNCC---TopUpGames",
-    "image": "/public/images/projects/web-top-up-laravel.png"
+    "image": "../../public/images/projects/web-top-up-laravel.png"
   },
   {
     "id": 23,
@@ -208,7 +208,7 @@
     "documentation": "#",
     "github": "https://github.com/Marvelius-Putra/RoomyBooky",
     "demo": "https://drive.google.com/file/d/1dHj2euoUgHAJfSlxAR28WZfRxx5BMH5V/view",
-    "image": "/public/images/projects/roomybooky.png"
+    "image": "../../public/images/projects/roomybooky.png"
   },
   {
     "id": 24,
@@ -221,7 +221,7 @@
     "techStack": ["Java", "Android Studio", "Postman", "REST API"],
     "documentation": "https://drive.google.com/file/d/1dHj2euoUgHAJfSlxAR28WZfRxx5BMH5V/view",
     "github": "https://github.com/Marvelius-Putra/Mobile-PublicAPI",
-    "image": "/public/images/projects/mobile-api.png"
+    "image": "../../public/images/projects/mobile-api.png"
   },
   {
     "id": 25,
@@ -234,7 +234,7 @@
     "techStack": ["Java", "Android Studio", "SQLite", "Figma"],
     "documentation": "#",
     "github": "https://github.com/Marvelius-Putra/RoomyBooky",
-    "image": "/public/images/projects/fashion-express.png"
+    "image": "../../public/images/projects/fashion-express.png"
   },
   {
     "id": 26,
@@ -247,7 +247,7 @@
     "techStack": ["Java", "Android Studio", "Firebase", "Figma"],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/sportybooky.png"
+    "image": "../../public/images/projects/sportybooky.png"
   },
 
   {
@@ -261,7 +261,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/certificate-english.png"
+    "image": "../../public/images/projects/certificate-english.png"
   },
   {
     "id": 3,
@@ -274,7 +274,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/icicos-author.png"
+    "image": "../../public/images/projects/icicos-author.png"
   },
   {
     "id": 4,
@@ -287,7 +287,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/icicos-presenter.png"
+    "image": "../../public/images/projects/icicos-presenter.png"
   },
   {
     "id": 5,
@@ -300,7 +300,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/veracode-certificate.png"
+    "image": "../../public/images/projects/veracode-certificate.png"
   },
   {
     "id": 6,
@@ -313,7 +313,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/python-data-science-certif.png"
+    "image": "../../public/images/projects/python-data-science-certif.png"
   },
   {
     "id": 7,
@@ -326,7 +326,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/ICE3IS certificate.png"
+    "image": "../../public/images/projects/ICE3IS certificate.png"
   },
   {
     "id": 8,
@@ -339,7 +339,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/BNCC-Certificate.png"
+    "image": "../../public/images/projects/BNCC-Certificate.png"
   },
   {
     "id": 9,
@@ -352,7 +352,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/certificate-css.png"
+    "image": "../../public/images/projects/certificate-css.png"
   },
   {
     "id": 10,
@@ -365,7 +365,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/sololearn-python.png"
+    "image": "../../public/images/projects/sololearn-python.png"
   },
   {
     "id": 11,
@@ -378,7 +378,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/sololearn-javascript.png"
+    "image": "../../public/images/projects/sololearn-javascript.png"
   },
   {
     "id": 12,
@@ -391,7 +391,7 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/sololearn-sql.png"
+    "image": "../../public/images/projects/sololearn-sql.png"
   },
   {
     "id": 13,
@@ -404,6 +404,6 @@
     "techStack": [],
     "documentation": "#",
     "github": "#",
-    "image": "/public/images/projects/sololearn-html.png"
+    "image": "../../public/images/projects/sololearn-html.png"
   }
 ]
