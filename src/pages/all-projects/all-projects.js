@@ -1,4 +1,4 @@
-import { loadStyles, getTechIcon, getBadgeStyle } from "../js/helper.js";
+import { loadStyles, getTechIcon, getBadgeStyle } from "../helper.js";
 
 export async function loadNavbar() {
   try {
