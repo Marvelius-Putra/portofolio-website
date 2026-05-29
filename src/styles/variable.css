@@ -1,0 +1,102 @@
+:root {
+  /* --- COLORS: Light Mode --- */
+  /* Primary — Biru utama (tombol, aksen, link aktif) */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-light: #dbeafe;
+
+  /* Accent — Biru tua section label ("ABOUT ME", "EXPERIENCE", "PROJECTS") */
+  --color-accent: #1e3a8a;
+
+  /* Background */
+  --color-bg-page: #f8f9fa; /* abu sangat terang, background halaman */
+  --color-bg-white: #ffffff; /* card, navbar */
+  --color-bg-hero: #eef4ff; /* area hero, lingkaran biru muda */
+  --color-bg-footer: #0f1b4c; /* footer biru tua gelap */
+
+  /* Text */
+  --color-text-heading: #0f172a; /* judul besar (Dimas Ardiansyah) */
+  --color-text-body: #374151; /* paragraf biasa */
+  --color-text-muted: #6b7280; /* teks kecil, tanggal, subtitle */
+  --color-text-label: #2563eb; /* label section ("ABOUT ME", "SKILLS") */
+  --color-text-white: #ffffff; /* teks di footer & tombol primary */
+
+  /* Border */
+  --color-border: #e5e7eb; /* border card, garis pemisah */
+  --color-border-light: #f3f4f6; /* border halus */
+
+  /* Timeline dot (Experience section) */
+  --color-dot-active: #2563eb;
+  --color-dot-inactive: #d1d5db;
+
+  /* Icon background (Experience cards) */
+  --color-icon-bg: #d5e5fb;
+
+  /* Tag Project */
+  --color-tags: #99d7f4;
+  --color-border-tags: #e5e7eb;
+
+  /* DESIGN */
+  --badge-design-bg: #f0fdf4;
+  --badge-design-text: #16a34a;
+  --badge-design-border: #bbf7d0;
+
+  /* WEB */
+  --badge-web-bg: #eff6ff;
+  --badge-web-text: #2563eb;
+  --badge-web-border: #bfdbfe;
+
+  /* RESEARCH */
+  --badge-research-bg: #faf5ff;
+  --badge-research-text: #7c3aed;
+  --badge-research-border: #ddd6fe;
+
+  /* DASHBOARD */
+  --badge-dashboard-bg: #fff7ed;
+  --badge-dashboard-text: #ea580c;
+  --badge-dashboard-border: #fed7aa;
+
+  --badge-mobile-bg: #f0fdf4;
+  --badge-mobile-text: #16a34a;
+  --badge-mobile-border: #bbf7d0;
+
+  --badge-system-bg: #faf5ff;
+  --badge-system-text: #7c3aed;
+  --badge-system-border: #e9d5ff;
+
+  --badge-certification-bg: #fffbeb;
+  --badge-certification-text: #d97706;
+  --badge-certification-border: #fde68a;
+
+  /* DEFAULT */
+  --badge-default-bg: #f8fafc;
+  --badge-default-text: #475569;
+  --badge-default-border: #e2e8f0;
+}
+
+[data-theme="dark"] {
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-light: #1e3a5f;
+
+  --color-accent: #93c5fd;
+
+  --color-bg-page: #0f172a;
+  --color-bg-white: #1e293b;
+  --color-bg-hero: #1e2d4a;
+  --color-bg-footer: #020617;
+
+  --color-text-heading: #f1f5f9;
+  --color-text-body: #cbd5e1;
+  --color-text-muted: #94a3b8;
+  --color-text-label: #60a5fa;
+  --color-text-white: #f8fafc;
+
+  --color-border: #334155;
+  --color-border-light: #1e293b;
+
+  --color-dot-active: #3b82f6;
+  --color-dot-inactive: #334155;
+
+  --color-icon-bg: #1e3a5f;
+}

@@ -1,0 +1,290 @@
+#experience {
+  background-color: var(--color-bg-hero);
+}
+
+.experience {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  max-width: 1500px;
+
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1s ease forwards;
+}
+
+.experience-content {
+  margin: 5rem 8rem;
+  width: 100%;
+}
+
+.experience-label {
+  color: var(--color-text-label);
+  font-weight: bold;
+}
+
+/* Sembunyikan timeline horizontal lama */
+.timeline-line {
+  display: none;
+}
+
+/* ── Vertical Timeline ── */
+.timeline-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 2rem;
+  position: relative;
+  padding-left: 36px;
+}
+
+/* Garis vertikal */
+.timeline-cards::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background-color: var(--color-primary);
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+/* Wrapper tiap card */
+.timeline-item {
+  position: relative;
+  padding-bottom: 28px;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+/* Dot di garis vertikal */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -35px;
+  top: 22px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  z-index: 1;
+  opacity: 0;
+  transform: scale(0.5);
+  animation: popIn 0.5s ease forwards;
+}
+
+.timeline-item:nth-child(1)::before {
+  animation-delay: 0.5s;
+}
+.timeline-item:nth-child(2)::before {
+  animation-delay: 0.7s;
+}
+.timeline-item:nth-child(3)::before {
+  animation-delay: 0.9s;
+}
+
+.cards-time {
+  font-size: 0.85rem;
+  color: var(--color-text-label);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.cards-content {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.8s ease forwards;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.timeline-item:nth-child(1) .cards-content {
+  animation-delay: 0.6s;
+}
+.timeline-item:nth-child(2) .cards-content {
+  animation-delay: 0.8s;
+}
+.timeline-item:nth-child(3) .cards-content {
+  animation-delay: 1s;
+}
+
+.cards-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(37, 99, 235, 0.12);
+}
+
+.cards-icon {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 12px;
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.cards-content:hover .cards-icon {
+  transform: rotate(-6deg) scale(1.05);
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2);
+}
+
+.job-company {
+  color: var(--color-text-label);
+  font-size: 0.9rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tech-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background-color: #f8fafc;
+  color: #334155;
+  border: 1px solid #e2e8f0;
+  letter-spacing: 0.1px;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.tech-badge:hover {
+  background-color: #f1f5f9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.tech-badge i {
+  font-size: 1rem;
+}
+
+.tech-divider {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 10px 0;
+}
+
+.jobdesk-list {
+  margin-top: 12px;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.jobdesk-list li {
+  color: var(--color-text-body);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .experience {
+    width: 100%;
+  }
+
+  .experience-content {
+    margin: 4rem 1.5rem;
+  }
+
+  .timeline-cards {
+    padding-left: 28px;
+  }
+
+  .timeline-item::before {
+    left: -27px;
+    top: 18px;
+  }
+
+  .cards-content {
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px;
+  }
+
+  .cards-icon {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+  }
+
+  .cards-time {
+    font-size: 0.8rem;
+  }
+  .job-company {
+    font-size: 0.85rem;
+  }
+  .tech-stack {
+    gap: 6px;
+  }
+
+  .tech-badge {
+    font-size: 0.72rem;
+    padding: 5px 10px;
+  }
+
+  .tech-badge i {
+    font-size: 0.85rem;
+  }
+}

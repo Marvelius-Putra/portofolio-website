@@ -1,0 +1,49 @@
+[
+  {
+    "category": "Programming Languages",
+    "categoryIcon": "fas fa-code",
+    "skills": [
+      { "name": "C#", "iconType": "devicon", "iconSlug": "csharp/csharp-original", "color": "#9B4F96" },
+      { "name": "Java", "iconType": "fa", "icon": "fa-brands fa-java", "color": "#ED8B00" },
+      { "name": "JavaScript", "iconType": "fa", "icon": "fa-brands fa-js", "color": "#F7DF1E" },
+      { "name": "TypeScript", "iconType": "devicon", "iconSlug": "typescript/typescript-original", "color": "#3178C6" },
+      { "name": "Python", "iconType": "fa", "icon": "fa-brands fa-python", "color": "#3776AB" },
+      { "name": "PHP", "iconType": "fa", "icon": "fa-brands fa-php", "color": "#777BB4" },
+      { "name": "Golang", "iconType": "fa", "icon": "fa-brands fa-golang", "color": "#00ADD8" },
+      { "name": "HTML", "iconType": "fa", "icon": "fa-brands fa-html5", "color": "#E34F26" },
+      { "name": "CSS", "iconType": "fa", "icon": "fa-brands fa-css3-alt", "color": "#1572B6" },
+      { "name": "React.js", "iconType": "devicon", "iconSlug": "react/react-original", "color": "#61DAFB" }
+    ]
+  },
+  {
+    "category": "Databases",
+    "categoryIcon": "fas fa-database",
+    "skills": [
+      { "name": "SQL Server", "iconType": "devicon", "iconSlug": "microsoftsqlserver/microsoftsqlserver-plain", "color": "#CC2927" },
+      { "name": "PostgreSQL", "iconType": "devicon", "iconSlug": "postgresql/postgresql-original", "color": "#336791" },
+      { "name": "MySQL", "iconType": "devicon", "iconSlug": "mysql/mysql-original", "color": "#4479A1" },
+      { "name": "Firebase", "iconType": "fa", "icon": "fas fa-fire", "color": "#FFCA28" },
+      { "name": "SQL", "iconType": "devicon", "iconSlug": "azuresqldatabase/azuresqldatabase-original", "color": "#336791" }
+    ]
+  },
+  {
+    "category": "Tools & Frameworks",
+    "categoryIcon": "fas fa-wrench",
+    "skills": [
+      { "name": ".NET", "iconType": "devicon", "iconSlug": "dot-net/dot-net-original", "color": "#512BD4" },
+      { "name": "Laravel", "iconType": "fa", "icon": "fa-brands fa-laravel", "color": "#FF2D20" },
+      { "name": "Next.js", "iconType": "devicon", "iconSlug": "nextjs/nextjs-original", "color": "#000000" },
+      { "name": "Material UI", "iconType": "devicon", "iconSlug": "materialui/materialui-original", "color": "#007FFF" },
+      { "name": "Azure Portal", "iconType": "devicon", "iconSlug": "azure/azure-original", "color": "#0089D6" },
+      { "name": "Azure DevOps", "iconType": "devicon", "iconSlug": "azuredevops/azuredevops-original", "color": "#0078D7" },
+      { "name": "Docker", "iconType": "fa", "icon": "fa-brands fa-docker", "color": "#2496ED" },
+      { "name": "RabbitMQ", "iconType": "devicon", "iconSlug": "rabbitmq/rabbitmq-original", "color": "#FF6600" },
+      { "name": "Git", "iconType": "fa", "icon": "fa-brands fa-git-alt", "color": "#F05032" },
+      { "name": "GitHub", "iconType": "fa", "icon": "fa-brands fa-github", "color": "#181717" },
+      { "name": "VS Code", "iconType": "devicon", "iconSlug": "vscode/vscode-original", "color": "#007ACC" },
+      { "name": "Google Colab", "iconType": "devicon", "iconSlug": "googlecolab/googlecolab-original", "color": "#F9AB00" },
+      { "name": "PowerShell", "iconType": "devicon", "iconSlug": "powershell/powershell-original", "color": "#5391FE" },
+      { "name": "Postman", "iconType": "devicon", "iconSlug": "postman/postman-original", "color": "#FF6C37" }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "date": "Apr 2025 - Present",
+    "position": "Software Developer (Fullstack)",
+    "company": "Indomobil",
+    "jobdesk": [
+      "Developed frontend modules and integrated them with backend APIs using Next.js and Material UI.",
+      "Built and maintained backend services in a microservices architecture using Golang and Python.",
+      "Implemented publish-event architecture using RabbitMQ for data synchronization between services.",
+      "Performed backend refactoring to improve scalability, maintainability, and performance.",
+      "Collaborated with cross-functional teams to deliver scalable enterprise applications."
+    ],
+    "techStack": [
+      { "icon": "devicon-nextjs-plain colored", "label": "Next.js" },
+      { "icon": "devicon-go-original-wordmark colored", "label": "Golang" },
+      { "icon": "devicon-python-plain colored", "label": "Python" },
+      { "icon": "devicon-rabbitmq-original colored", "label": "RabbitMQ" },
+      { "icon": "devicon-microsoftsqlserver-plain colored", "label": "SQL Server" },
+      { "icon": "devicon-materialui-plain colored", "label": "Material UI" }
+    ]
+  },
+  {
+    "date": "Feb 2024 - Feb 2025",
+    "position": ".NET Developer (Intern)",
+    "company": "PT Freeport Indonesia",
+    "jobdesk": [
+      "Upgraded multiple applications to .NET 8 to improve performance and maintainability.",
+      "Resolved security vulnerabilities identified through Veracode scans.",
+      "Developed internal features and universal adapter applications for access management.",
+      "Managed CI/CD synchronization and deployment processes using Azure DevOps.",
+      "Collaborated with teams during testing, monitoring, and production deployments."
+    ],
+    "techStack": [
+      { "icon": "devicon-dot-net-plain colored", "label": ".NET MVC" },
+      { "icon": "devicon-html5-plain colored", "label": "HTML" },
+      { "icon": "devicon-microsoftsqlserver-plain colored", "label": "SQL Server" },
+      { "icon": "devicon-azure-plain colored", "label": "Azure DevOps" },
+      { "icon": "devicon-powershell-plain colored", "label": "PowerShell" }
+    ]
+  },
+  {
+    "date": "Feb 2022 - Feb 2025",
+    "datetime": "2022-02",
+    "position": "Lecture Research Assistant",
+    "company": "University Research Laboratory",
+    "jobdesk": [
+      "Conducted Computer Vision research focused on Object Detection and Classification.",
+      "Developed and optimized Deep Learning models for research projects.",
+      "Performed dataset analysis and preprocessing for model training.",
+      "Collaborated with research teams to support experiments and publications.",
+      "Improved model accuracy using PyTorch and Computer Vision techniques."
+    ],
+    "techStack": [
+      { "icon": "devicon-python-plain colored", "label": "Python" },
+      { "icon": "devicon-pytorch-original colored", "label": "PyTorch" },
+      { "icon": "devicon-matlab-plain colored", "label": "MATLAB" },
+      { "icon": "devicon-googlecolab-plain colored", "label": "Google Colab" },
+      { "icon": "devicon-pycharm-plain colored", "label": "PyCharm" }
+    ]
+  }
+]
