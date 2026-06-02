@@ -405,5 +405,69 @@
     "documentation": "#",
     "github": "#",
     "image": "https://marvelius-putra.github.io/portofolio-website/public/images/projects/sololearn-html.png"
+  },
+  {
+    "id": 33,
+    "title": "PTFI User Assignment Standardization",
+    "type": "System Design",
+    "category": "systemDesign",
+    "date": "September 2025",
+    "description": "Performed Azure AD application access remediation and governance activities across multiple application types, including API, App Registration, Function Apps, Services, Web, and WebAPI. Responsibilities included auditing application roles, implementing standardized security groups, removing direct user access to enforce group-based authorization, migrating legacy group naming conventions (SG-XXX to SG-AZW), decommissioning unused applications, coordinating access modifications with the Base Service Team, and conducting sanity testing to ensure secure and compliant access management across enterprise applications.",
+    "features": ["Azure AD application role audit", "Security group standardization", "Group-based access control implementation", "Direct user access removal", "Group migration (SG-XXX to SG-AZW)", "Unused application cleanup", "Access modification coordination", "Application sanity testing"],
+    "techStack": ["Azure DevOps", ".NET", "PowerShell"],
+    "documentation": "#",
+    "github": "#",
+    "demo": "#",
+    "image": "https://marvelius-putra.github.io/portofolio-website/public/images/projects/User-Assignment.png"
+  },
+  {
+    "id": 35,
+    "title": "RabbitMQ Event-Driven Integration Architecture",
+    "type": "System Design",
+    "category": "systemDesign",
+    "date": "March 2026",
+    "description": "Designed and implemented an event-driven integration architecture using RabbitMQ to enable asynchronous communication between Sales, General, Aftersales, and Finance modules. The architecture utilizes exchanges, routing keys, queues, and dedicated worker services to process events independently, ensuring scalability, loose coupling, and reliable data synchronization across multiple domain databases.",
+    "features": [
+      "RabbitMQ message broker implementation",
+      "Event publishing and consuming",
+      "Asynchronous data synchronization",
+      "Exchange and routing key management",
+      "Dedicated worker service architecture",
+      "Multi-module integration",
+      "Queue-based message processing",
+      "Domain-driven event handling",
+      "Reliable message delivery",
+      "Scalable microservice communication"
+    ],
+    "techStack": ["RabbitMQ", "Golang", "MySQL"],
+    "documentation": "#",
+    "github": "#",
+    "demo": "#",
+    "image": "https://marvelius-putra.github.io/portofolio-website/public/images/projects/Publish Event Architecture.png"
+  },
+  {
+    "id": 26,
+    "title": "Automated API Testing for General Service",
+    "type": "System Design",
+    "category": "systemDesign",
+    "date": "April 2026",
+    "description": "Developed and maintained automated API test suites for General Service to ensure reliability, consistency, and data integrity across employee-related endpoints. Implemented comprehensive test scenarios covering CRUD operations, validation rules, filtering functionality, error handling, and response consistency. The test suite was integrated into the development workflow to detect regressions early and improve overall service quality.",
+    "features": [
+      "Automated API testing",
+      "Employee endpoint validation",
+      "CRUD operation testing",
+      "Response consistency verification",
+      "Input validation testing",
+      "Error handling verification",
+      "Filter and search testing",
+      "Regression testing",
+      "Test execution reporting",
+      "Quality assurance automation"
+    ],
+    "techStack": ["Python"],
+    "documentation": "#",
+    "github": "#",
+    "demo": "#",
+    "image": "https://marvelius-putra.github.io/portofolio-website/public/images/projects/Unit-Test.png"
   }
 ]

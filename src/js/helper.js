@@ -24,6 +24,8 @@ export const techIconMap = {
   css3: "devicon-css3-plain colored",
   javascript: "devicon-javascript-plain colored",
   typescript: "devicon-typescript-plain colored",
+  rabbitmq: "devicon-rabbitmq-original colored",
+  powershell: "devicon-bash-plain colored",
 
   // =========================
   // BACKEND
